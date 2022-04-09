@@ -1,10 +1,10 @@
 #!/bin/bash
 
-#Custermize this for your application
+#Customise this for your application
 APPLICATION_FILE_PATH=bin/wso2server.sh
 
 #Parameters
-PRODUCT_HOME=/Library/__PRODUCT__/__VERSION__
+PRODUCT_HOME=/__PRODUCT__/__VERSION__
 
 echo "Post installation process started"
 

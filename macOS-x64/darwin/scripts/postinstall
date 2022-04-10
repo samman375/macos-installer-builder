@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #Customise this for your application
-APPLICATION_FILE_PATH=bin/wso2server.sh
+APPLICATION_FILE_PATH=keylogger
 
 #Parameters
 PRODUCT_HOME=/__PRODUCT__/__VERSION__
@@ -16,5 +16,5 @@ chmod -R 755 .
 
 #Add application shortcut to /usr/local/bin
 rm -f /usr/local/bin/__PRODUCT__-__VERSION__
-ln -s ${PRODUCT_HOME}/${APPLICATION_FILE_PATH} /usr/local/bin/__PRODUCT__-__VERSION__
+ln -s /Library${PRODUCT_HOME}/${APPLICATION_FILE_PATH} /usr/local/bin/__PRODUCT__-__VERSION__
 echo "Post installation process finished"
